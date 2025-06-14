@@ -1,0 +1,6 @@
+The aim of this project is to get a python treaded project running to handle traffic at an intersection, starting with a 4-way stop.
+This should allow an exploration of queues, stacks, heaps, timing.
+
+At random interval (1-5 seconds) a car arrives up in one of the 4 directions with a random turn direction (L, S, R).
+When the intersection is clear, cars may enter following the right of way and direction based no who just exited the intersection.
+Up to two vehicles that can travel thru the intersection at once will. Not allowing all four to turn right, for instance.
