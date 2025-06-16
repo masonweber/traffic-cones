@@ -1,0 +1,13 @@
+<html>
+    <head></head>
+    <body><h3>Hello, world</h3>
+    <label>
+        This is my AWS bucket. 6/16/2025 3:05 PM
+    </label>
+    <br>
+    <button onclick="fetch('https://jhoyt2qkrf.execute-api.us-east-1.amazonaws.com/Test')
+    .then((response) => response.json()).then((json) => document.getElementById('count').innerHTML = json.body);">Call Lambda</button>
+    <br>
+    <label id="count"></label>
+    </body>
+</html>
