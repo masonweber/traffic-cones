@@ -1,5 +1,7 @@
 <html>
-    <head></head>
+    <head>
+        <script src="bucket.js"></script>
+    </head>
     <body><h3>Hello, world</h3>
     <label>
         This is my AWS bucket. 6/16/2025 3:05 PM
@@ -9,5 +11,7 @@
     .then((response) => response.json()).then((json) => document.getElementById('count').innerHTML = json.body);">Call Lambda</button>
     <br>
     <label id="count"></label>
+    <br>
+    <label id="remote"></label>
     </body>
 </html>
